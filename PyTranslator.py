@@ -1,4 +1,5 @@
 from google_trans_new  import  google_translator
+import pyttsx3
 # print(google_trans_new.LANGUAGES)
 
 LTr = input("Type the text you want to translate in any language >>>> ")
@@ -112,4 +113,9 @@ print("104. Zulu - (zu)")
 print("Choose one language and then type the character in the language's bracket below")
 Lang = input(">>>> ")
 translated_text = translator.translate(LTr,lang_tgt=Lang)
+
+a = pyttsx3.init()
+a.setProperty("language",Lang)
+a.say(translated_text)
+a.runAndWait()
 print("Translation = "+translated_text)
