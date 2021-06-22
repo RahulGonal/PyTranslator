@@ -1,6 +1,11 @@
 # PyTranslator
 This is a python script from which you can translate many languages
 
+![MadeByRahul](https://img.shields.io/badge/Made%20By-RahulGonal-orange)
+![MadeWithPython](https://img.shields.io/badge/Made%20With-Python-blue)
+![Passed](https://img.shields.io/badge/Tests-Succesfully%20Passed-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-orange)
+
 ## Supported Languages (104)
 1. Afrikaans - af
 2. Albanian - sq
