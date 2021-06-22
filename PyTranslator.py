@@ -113,6 +113,7 @@ print("104. Zulu - (zu)")
 print("Choose one language and then type the character in the language's bracket below")
 Lang = input(">>>> ")
 translated_text = translator.translate(LTr,lang_tgt=Lang)
+print("Translation = "+translated_text)
 
 a = pyttsx3.init()
 a.setProperty("language",Lang)
